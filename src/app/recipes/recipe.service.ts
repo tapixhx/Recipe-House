@@ -5,17 +5,17 @@ export class RecipeService {
 
     private recipes:Recipe[] = [
         new Recipe(
-            'A Test Recipe',
+            'Burger',
             'This is simply a test',
-            '',
+            'assets/images/burger.jpg',
             [
                 new Ingredient('Meat', 1),
                 new Ingredient('French Fries', 20),
             ]),
         new Recipe(
-            'Another Test Recipe',
+            'Pizza',
             'This is simply a test',
-            '',
+            'assets/images/pizza.jpg',
             [
                 new Ingredient('Buns',2),
                 new Ingredient('Meat',1),
