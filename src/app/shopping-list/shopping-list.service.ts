@@ -23,10 +23,13 @@ export class ShoppingListService {
         this.IngredientsChanged.next(this.ingredients.slice());
     }
 
-    // addIngredients(ingredients:Ingredient[]) {
-    //     this.ingredients.push(..ingredient);
-    //     this.ingredientsChanged.next(this.ingredients.slice());
-    // }
+    addIngredients(ingredients:Ingredient[]) {
+        // for(let ingredient of ingredients) {
+        //     this.addIngredient(ingredient);
+        // }
+        // this.ingredients.push(...ingredients);
+        // this.IngredientsChanged.emit(this.ingredients.slice());
+    }
 
     updateIngredient(index: number, newIngredient: Ingredient) {
         this.ingredients[index] = newIngredient;
