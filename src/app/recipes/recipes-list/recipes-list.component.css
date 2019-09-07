@@ -1,0 +1,7 @@
+.btn-color:hover{
+    background-color:orangered;
+    border : 1px solid orangered;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 10px black;
+    /* border-radius : 50%; */
+}
