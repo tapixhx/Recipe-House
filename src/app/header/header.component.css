@@ -1,3 +1,6 @@
 .head {
     background-color : black;
 }
+.hcolor:hover {
+    background-color : orangered;
+}
